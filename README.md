@@ -1,2 +1,2 @@
 #App Readme File
-This _**first**_ app
+This first app

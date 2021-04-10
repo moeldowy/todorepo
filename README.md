@@ -1,2 +1,2 @@
 #App Readme File
-This first app
+Elective Course for Qena [Q2]

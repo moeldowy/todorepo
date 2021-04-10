@@ -23,7 +23,7 @@
             print($city);
 
             //Scalar Datatypes
-            $name="ali";$age=30;
+            $name="ali";$age=34;
             echo gettype($name)."<br>";
             echo gettype($age)."<br>";
             $militaryStatus=true;
@@ -42,6 +42,30 @@
             echo gettype($file);
             $childes=NULL;
             echo gettype($childes)."<br>";
+            $x=3;
+            $y=5;
+//            $z= $x+$y;
+//            echo gettype($x)."///<br>";
+//            echo gettype($y)."****<br>";
+//            settype($y,"string");
+//            echo gettype($y);
+//            echo $z;
+            static $age=30;
+            function calcAgeEveryYear(){
+                $name="ali";
+                    global $age;
+                $age++;
+                return $age;
+            }
+            echo calcAgeEveryYear();
+            echo calcAgeEveryYear();
+            echo calcAgeEveryYear();
+            const NAME="Mohammed Salah";
+            const NAME="dsfdsfdsfsd";
+            echo NAME;
+
+
+
             ?>
         </h1>
     </header>

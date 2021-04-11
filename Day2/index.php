@@ -1,7 +1,7 @@
 <?php
 ////declare indexed array
-////$names=array("Mahmoud","Ali","Khaled");
-////var_dumb($names);
+//$names=array("Mahmoud","Ali","Khaled");
+//var_dump($names);
 ////print_r($names)."<br>";
 //$mobiles=["Samsung","iPhone","Opoo"];
 ////array_pop($mobiles);

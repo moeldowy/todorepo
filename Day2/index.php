@@ -74,3 +74,17 @@ array_push($cities,"cairo");
 //array_unshift($cities,"cairo");
 
 var_dump($cities);
+
+//answer for No. 7
+foreach ($SWDF as $key1=>$value1)
+{
+    if (is_array($value1))
+    {
+        foreach ($value1 as $key2=>$value2)
+        {
+            echo $key2.": ".$value2."<br>";
+        }
+    }else{
+        echo $key1.": ".$value1."<br>";
+    }
+}

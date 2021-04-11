@@ -1,43 +1,76 @@
 <?php
-//declare indexed array
-//$names=array("Mahmoud","Ali","Khaled");
-//print_r($names)."<br>";
-$mobiles=["Samsung","iPhone","Opoo"];
-echo $mobiles[1]."<hr>";
-$count=count($mobiles);
+////declare indexed array
+////$names=array("Mahmoud","Ali","Khaled");
+////var_dumb($names);
+////print_r($names)."<br>";
+//$mobiles=["Samsung","iPhone","Opoo"];
+////array_pop($mobiles);
+//print_r($mobiles);
+//echo $mobiles[0],$mobiles[1],$mobiles[2];
+//$count=count($mobiles);
+//echo "<hr>";
+//echo"Eslam Task<br>";
 //for($i=0;$i<$count;$i++){
 //    echo $mobiles[$i]."<br>";
 //}
-$i=0;
-//while($i<$count){
-//    echo $mobiles[$i];
-//    $i++;
+//echo "<hr>";
+//echo"iman Task<br>";
+//$x=0;
+//while($x<$count){
+//
+//    echo $mobiles[$x]."<br>";
+//    $x++;
 //}
+//echo "<hr>";
+//echo"Yasmin Task<br>";
+//
+//$i=0;
 //do{
-//    echo $mobiles[$i];
+//
+//    echo $mobiles[$i]."<br>";
 //    $i++;
 //}while($i<$count);
-
-echo gettype($mobiles);
-echo"<pre>";
-//print_r($mobiles);
-echo"</pre>";
-echo"<hr>";
-//declare Associative array
-$family=[
-    "Father"=>"Ali",
-    "Son"=>"Ashraf",
-];
-echo $family["Father"]."<br>";
-print_r($family);
-echo"<hr>";
-//Multi dimension array
+//echo "<hr>";
+//echo"Yasmin another Task<br>";
+//foreach($mobiles as $mobile){
+//    echo $mobile."<br>";
+//}
+//echo "<hr>";
+//
+//echo gettype($mobiles);
+//echo"<pre>";
+////print_r($mobiles);
+//echo"</pre>";
+//echo"<hr>";
+////declare Associative array
+//$family=[
+//    "Father"=>"Ali",
+//    "mother"=>"Asmaa",
+//    "Son"=>"Ashraf",
+//];
+//foreach($family as $key=>$value){
+//    echo $key."-".$value."<br>";
+//}
+//echo $family["Father"]."<br>";
+//print_r($family);
+//echo"<hr>";
+////Multi dimension array
 $SWDF=[
     "Course1"=>"Softskills",
     "programming"=>["A"=>"OOP","OS","PHP"],
     "Project"=>"Website Project"
 ];
-echo gettype($SWDF)."<br>";
-echo $SWDF["programming"][0]."<br>";
-echo $SWDF["programming"]["A"]."<br>";
-print_r($SWDF);
+//echo gettype($SWDF)."<br>";
+//echo $SWDF["programming"][0]."<br>";
+//echo $SWDF["programming"]["A"]."<br>";
+//print_r($SWDF);
+$cities=["Luxor","Aswan","Qena","Sohag"];
+var_dump($cities);
+//sort($cities);
+//rsort($cities);
+//array_pop($cities);
+//array_shift($cities);
+array_push($cities,"cairo");
+//array_unshift($cities,"cairo");
+
+var_dump($cities);

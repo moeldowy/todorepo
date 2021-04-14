@@ -11,6 +11,7 @@
 <h1>Welcome to my website</h1>
     <ul>
         <?php
+
         $age=10;
         //echo ($age==30)?"correct":"false";
         if($age==20):?>

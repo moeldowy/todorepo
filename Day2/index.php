@@ -70,13 +70,13 @@ var_dump($cities);
 //rsort($cities);
 //array_pop($cities);
 //array_shift($cities);
-array_push($cities,"cairo");
+//array_push($cities,"cairo");
 //array_unshift($cities,"cairo");
 
 var_dump($cities);
 
 //answer for No. 7
-foreach ($SWDF as $key1=>$value1)
+/*foreach ($SWDF as $key1=>$value1)
 {
     if (is_array($value1))
     {
@@ -87,4 +87,4 @@ foreach ($SWDF as $key1=>$value1)
     }else{
         echo $key1.": ".$value1."<br>";
     }
-}
+}*/

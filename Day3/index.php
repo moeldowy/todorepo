@@ -58,7 +58,9 @@ $_ENV*/
         <input type="password" id="password" name="password"><br>
         <input type="submit" value="Login">
     </form>
-<?php else:echo"you r already loggedin";
-endif;
+<?php else:?>
+        <p>you r already loggedin</p><br>
+    <a href="logout.php">Logout</a>
+<?php endif;
 ?>
 

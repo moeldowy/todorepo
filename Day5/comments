@@ -1,0 +1,30 @@
+
+//CRUD
+/*
+ *CREATE [Insert]
+ * READ[SELECT]
+ * Update
+ * Delete [soft delete]
+ * search
+ * login
+ * hashing password
+ * */
+//dsn= data source name[driver,host name,dbname]
+//print_r(PDO::getAvailableDrivers());
+
+
+
+/*function check($x)
+{
+    if($x>2){
+        return "Yes";
+    }else{
+        throw new Exception("Sorry there is  a problem");
+    }
+}
+
+try {
+    echo check(1);
+}catch (Exception $error){
+    echo $error->getMessage();
+}*/

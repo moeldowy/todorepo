@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="060133d0-33e1-4700-8865-309471522c1d" name="Default Changelist" comment="" />
+    <list default="true" id="060133d0-33e1-4700-8865-309471522c1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Day5/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day5/connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day5/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +61,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -78,7 +83,10 @@
       <workItem from="1617707028997" duration="7658000" />
       <workItem from="1617948973783" duration="25483000" />
       <workItem from="1618130495653" duration="8840000" />
-      <workItem from="1618347565416" duration="38034000" />
+      <workItem from="1618347565416" duration="41324000" />
+      <workItem from="1618585125614" duration="144000" />
+      <workItem from="1618585301058" duration="4950000" />
+      <workItem from="1618668186705" duration="14013000" />
     </task>
     <servers />
   </component>

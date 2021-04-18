@@ -9,6 +9,7 @@ require_once "User.php"; ?>
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Users management system</title>
 </head>
 <body>
@@ -51,7 +52,7 @@ require_once "User.php"; ?>
                         </div>
                     </div>
                     <div class="col-12">
-                        <button type="submit" name="save" class="btn btn-primary">Sign in</button>
+                        <button type="submit" name="save" class="btn btn-primary">Save</button>
                     </div>
                 </form>
             </div>
@@ -87,7 +88,9 @@ require_once "User.php"; ?>
                             <td><?= $user->password;?></td>
                             <td><?= $user->birth_of_date;?></td>
                             <td><?= $user->married;?></td>
-                            <td>Edit Remove</td>
+                            <td>
+                                <a href="edit.php?id=<?= $user->id;?>"><i class="material-icons" style="font-size:40px;color:#bdbd17;">edit_note</i></a>
+                                <a onclick="return confirm('Are you sure that you want to selete that user?')" href="delete.php?id=<?= $user->id;?>"><i class="material-icons" style="font-size:40px;color:red;">delete_sweep</i></a></td>
                         </tr>
                    <?php endforeach;?>
 
